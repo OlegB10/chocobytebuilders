@@ -33,6 +33,7 @@
     margin: 0 auto;
         }
 .reviews-item-person{
+    max-width: 335px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -128,17 +129,24 @@
 }
 
 .reviews-title {
-    margin-bottom: 49px;
+    margin-bottom: 72px;
     font-size: 24px;
     line-height: 1.17;
 }
 
+.reviews-list {
+  gap: 16px;
+  }
+
 .reviews-item-person{
     max-width: 344px;
+    left: 132px;
 }
 
 .reviews-item {
-    width: calc((100% - 16px) / 2);
+ max-width: 344px;
+ width: calc((100% - 16px) / 2);
+ margin: 0;
 }
 
 .reviews-item-text {
@@ -163,8 +171,11 @@
 
 .reviews-item-person{
     max-width: 360px;
-}
+    left: 140px;
+  }
+
 .reviews-item {
+    max-width: 1200px;
       width: calc((100% - 56px) / 3);
 }
 
