@@ -1,11 +1,15 @@
 .subscribe {
-    max-width: 375px;
+    max-width: 1200px;
     padding-top: 62px;
     padding-bottom: 63px;
     background-image: url(../img/Subcribe_mob_375x370.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: 1;
     background-size: cover;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
+    /* margin-bottom: 50px; */
 }
 
   @media (min-device-pixel-ratio: 2),
@@ -66,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
   .subscribe {
-    max-width: 768px;
+    max-width: 1200px;
     padding-top: 72px;
     padding-bottom: 72px;
     background-image: url(../img/Subcribe_tabl_768x370.jpg);
@@ -141,5 +145,40 @@
         }
     }
 
+/* .slick-track{
+  display: flex;
+  align-items: center;
+}
 
+.slick-list{
+  overflow: hidden;
+}
+.slider .slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slick-dots li{
+list-style: none;
+margin: 13px;
+}
+.slider .slick-dots button{
+  font-size: 0;
+  width: 13px;
+  height: 13px;
+  background-color: rgba(17, 17, 17, 0.1);
+  border-radius: 50%; 
 
+}
+
+.slider .slick-dots li.slick-active button{
+ background-color: rgba(253, 146, 34, 1);
+}
+
+.slider-item{
+  text-align: center;
+}
+.slider {
+  min-width: 0;
+}
+ */
