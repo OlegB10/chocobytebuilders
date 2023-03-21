@@ -212,6 +212,7 @@ html,body{
 .slick-track{
 	display: flex;
 	align-items: flex-start;
+  padding-top: 41px;
 }
 
 /* Слайд */
