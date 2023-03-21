@@ -24,12 +24,12 @@ $(document).ready(function(){
                     slidesToShow: 2                     
                 }
             }, 
-            // {
-            //     breakpoint: 375,
-            //     settings: {
-            //         slidesToShow: 1                     
-            //     }
-            // }
+            {
+                breakpoint: 375,
+                settings: {
+                    slidesToShow: 1                     
+                }
+            }
         ],
         mobileFirst: true,
     });
